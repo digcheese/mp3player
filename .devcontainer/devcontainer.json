@@ -1,0 +1,26 @@
+{
+	"name": "ESP-IDF",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	// Configure VS Code in the dev container
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"idf.showOnboardingOnInit": false,
+				"idf.toolsPath": "/opt/esp",
+				"idf.espIdfPath": "/opt/esp/idf",
+				"terminal.integrated.shell.linux": "/bin/bash",
+				"workbench.colorTheme": "Visual Studio Dark - C++"
+	
+			},
+			"extensions": [
+				"espressif.esp-idf-extension",
+				"ms-vscode.cmake-tools",
+				"ms-vscode.cpptools",
+				"ms-vscode.cpptools-themes"
+			]
+		}
+	},
+	"userEnvProbe": "loginInteractiveShell"
+}
