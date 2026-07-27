@@ -12,5 +12,5 @@ Then run the following.
 ```bash
 # Bind and attach to the WSL instance
 usbipd bind --busid <bus-id>
-usbipd --wsl --busid <bus-id> --auto-attach
+usbipd attach --wsl --busid <bus-id> --auto-attach
 ```
