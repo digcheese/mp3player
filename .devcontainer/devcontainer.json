@@ -14,7 +14,6 @@
 				"idf.showOnboardingOnInit": false,
 				"idf.toolsPath": "/opt/esp",
 				"idf.espIdfPath": "/opt/esp/idf",
-				"idf.saveScope": 1,
 				"terminal.integrated.shell.linux": "/bin/bash",
 				"workbench.colorTheme": "Visual Studio Dark - C++",
 				"C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json"	
