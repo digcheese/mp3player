@@ -16,13 +16,14 @@
 				"idf.espIdfPath": "/opt/esp/idf",
 				"terminal.integrated.shell.linux": "/bin/bash",
 				"workbench.colorTheme": "Visual Studio Dark - C++",
-				"C_Cpp.default.compileCommands": "${workspaceFolder}/build/compile_commands.json"	
+				"C_Cpp.intelliSenseEngine": "disabled"
 			},
 			"extensions": [
 				"espressif.esp-idf-extension",
 				"ms-vscode.cmake-tools",
 				"ms-vscode.cpptools",
-				"ms-vscode.cpptools-themes"
+				"ms-vscode.cpptools-themes",
+				"llvm-vs-code-extensions.vscode-clangd"
 			]
 		}
 	},
