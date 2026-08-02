@@ -5,5 +5,6 @@ UseTab: Never
 ColumnLimit: 150              
 BreakBeforeBraces: Attach
 AlignConsecutiveAssignments: true
+AlignAfterOpenBracket: BlockIndent
 PointerAlignment: Right
 SpaceBeforeParens: ControlStatements
