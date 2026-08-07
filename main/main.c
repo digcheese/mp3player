@@ -29,7 +29,7 @@ void app_main(void) {
     ui_init();
 
     ui_start();
-    
+
     printf("Hello world!\n");
 
     for (int i = 10; i >= 0; i--) {
