@@ -11,6 +11,7 @@
 	"customizations": {
 		"vscode": {
 			"settings": {
+				"editor.formatOnSave": true,
 				"idf.showOnboardingOnInit": false,
 				"idf.toolsPath": "/opt/esp",
 				"idf.espIdfPath": "/opt/esp/idf",
