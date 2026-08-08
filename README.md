@@ -1,7 +1,7 @@
 # MP3 player firmware
 
 Side project where I try to make a mp3 player. This repository contains the firmware I'm flashing
-onto an ESP32 S-3.
+onto an ESP32-S3.
 
 ## WSL USB device passthrough setup
 
